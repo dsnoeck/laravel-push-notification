@@ -6,9 +6,12 @@ Package to enable sending push notifications to devices
 Installation
 ----
 
-Update your `composer.json` file to include this package as a dependency
+Update your `composer.json` file to include this package as a dependency.
+"dev-master" for latest version
+"4.0" for compatibility with laravel 4.0
+"4.2" for compatibility with laravel 4.2
 ```json
-"davibennun/laravel-push-notification": "dev-master"
+"dsnoeck/laravel-push-notification": "dev-master"
 ```
 
 Register the PushNotification service provider by adding it to the providers array in the `app/config/app.php` file.
