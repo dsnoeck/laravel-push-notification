@@ -106,9 +106,12 @@ This package is wrapps [Notification Package] and adds some flavor to it.
 ####Usage advice
 This package should be used with [Laravel Queues], so pushes dont blocks the user and are processed in the background, meaning a better flow.
 
+#License
 
+The Laravel framework is open-sourced software licensed under the [MIT license]
 
 [Notification Package]:https://github.com/Ph3nol/NotificationPusher
 [Laravel Queues]:http://laravel.com/docs/queues
+[MIT Laravel]:http://opensource.org/licenses/MIT
 
     
